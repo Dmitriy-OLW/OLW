@@ -7,7 +7,7 @@ nav {
 	top: 0;
 	left: 0;
 	background: #2c68b6;
-	width: 100%;
+	width: clamp(650px, 100%, 100%);
 	font-family: Verdana, Calibri, sans-serif;    
 }
 nav ul {
