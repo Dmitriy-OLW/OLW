@@ -1,0 +1,96 @@
+body{
+background: #f0f0f0;	
+}
+nav {
+	height: 80px; 
+	position: fixed; 
+	top: 0;
+	left: 0;
+	background: #2c68b6;
+	width: 100%;
+	font-family: Verdana, Calibri, sans-serif;    
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    display: flex;
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+	height: 80px; 
+}
+nav ul li {
+	margin: 0 10px;
+}
+nav ul li a {
+	color: #b8d7f7;
+	display: inline-flex;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.3s ease;
+	border-bottom: 2px solid transparent;
+}
+nav ul li a:hover {
+	color: #FFF;
+}
+nav ul li a.active {
+	border-bottom: 2px solid #FFF;
+	padding-bottom: 6px;
+	color: #FFF;
+}
+section,
+header,
+footer {
+	background: #f0f0f0;
+	
+	/* height: 600px; */
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    justify-content: left;
+	font-size: 20px;
+	/* text-transform: uppercase; */
+	color: #002f76;
+	font-weight: bold;
+	font-family: Verdana, Calibri,  sans-serif;   	
+}
+section{
+	margin: 0px 30px 0px 30px;
+	/* -webkit-text-stroke: 0.5px #000; */
+	}
+/* section:nth-child(even) { */
+	/* background: #BFE2FF; */
+}
+section:first-child {
+	margin-top: 60px;
+}
+section.active {
+	/* Стиль для активной секции */
+}
+header{
+	border-bottom: 4px solid #1e266d; /* ИЗМЕНЕНИЕ ПОЛОСКИ */
+	height: 55px;
+}
+
+footer{
+	color: #0b154e;
+	height: 40px;
+	border-bottom: 0px solid #1e266d;
+	margin: 0px 0px 0px 50px;
+}
+hr{
+	border-bottom: 4px solid #1e266d; /* ИЗМЕНЕНИЕ ПОЛОСКИ */
+}
+
+A {
+    color: #2a5f76; /* Цвет ссылок */
+   }
+   A:visited {
+    color: #2a5f76; /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color: #2a5f76; /* Цвет активных ссылок */
+   }
